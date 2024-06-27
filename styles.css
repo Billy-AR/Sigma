@@ -1,0 +1,248 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width:1100px;
+    margin:auto;
+    position:relative;
+}
+
+nav{
+    width:100%;
+    line-height:80px;
+    background-color: #FFFFFF;
+    position: sticky;
+    position:-webkit-sticky;
+    top:0;
+    display:flex;
+    border-bottom: 1px solid #364F6B;
+    z-index:1;
+}
+
+.logo a{
+    float:left;
+    font-size: 50px;
+    font-family: courier;
+    color:#364F6B;
+    font-weight:800;
+}
+
+.menu ul{
+    list-style-type: none;
+    float:right;
+}
+
+.menu ul li{
+    float:left;
+}
+
+.menu ul li a{
+    color:black;
+    font-weight:bold;
+    padding: 0 16px;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+.menu a.btn-biru{
+    background-color:#3F72AF;
+    padding: 15px 20px 15px 15px;
+    border-radius: 20px;
+    color:#FFFFFF;
+}
+
+.menu ul li a.btn-biru{
+    text-decoration: none;
+}
+
+a.btn-biru:hover{
+    background-color:#FC5185;
+    text-decoration: none;
+}
+
+.btn-biru{
+    background-color:#3F72AF;
+    padding: 15px 20px 15px 15px;
+    border-radius: 20px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+section{
+    position: relative;
+    display:flex;
+}
+
+#Home{
+    display:flex;
+    margin-bottom:50px;
+}
+
+.kolom{
+    margin: 50px 0px 50px 0px;
+}
+
+p.deskripsi{
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    color:#364F6B;
+    font-weight: bold;
+}
+
+h2{
+    font-weight:800;
+    font-size:45px;
+    line-height:50px;
+    font-family:'comic sans ms';
+    color:#364F6B;
+}
+
+p{
+    padding:10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+a.btn-pink{
+    background-color: #FC5185;
+    padding: 15px 20px 15px 15px;
+    border-radius: 20px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+a.btn-pink:hover{
+    background-color: #3F72AF;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.tutors-list{
+    flex-wrap:wrap;
+    display:flex;
+    width:100%;
+}
+
+.kartu-tutor{
+    width: 20%;
+    margin: 0px auto;
+}
+
+.kartu-tutor img{
+    width:80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p{
+    font-size: 25px;
+    font-weight: bold;
+    color:#364F6B;
+    font-family:'comic sans ms'
+}
+
+.patners-list{
+    display:flex;
+}
+
+.kartu-patner{
+    width: 20%;
+}
+
+.kartu-patner img{
+    width:100%;
+    margin: 0px auto;
+}
+
+#contact{
+    background-color:#dedede ;
+    padding: 50px 0px;
+}
+
+.footer{
+    display:flex;
+    top:0px;
+    bottom:0px;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    font-size: 30px;
+    color: #364F6B;
+    margin-bottom:20px;
+}
+
+#Patners{
+    margin-bottom:50px;
+}
+
+.footer-section p{
+    padding:0px;
+    margin:0px;
+}
+
+.copyright{
+    text-align:center;
+    padding: 50px 0px;
+    margin-top:50px;
+}
+
+@media screen and (max-width:991.98px){
+
+   .wrapper{
+    width:90%;
+   }
+
+   #Home img{
+    width:100%;
+   }
+
+   #Courses img{
+    width: 100%;
+   }
+
+   .logo a{
+    width:100%;
+    text-align:center;
+   }
+
+   nav .menu ul{  
+    text-align: center;
+    line-height: 60px;
+}
+
+nav .menu ul li{
+    display:inline-block;
+    float:none;
+ }
+
+  #Home{
+    display:block;
+  }
+  #Courses{
+    display:block;
+  }
+
+  .kartu-tutor{
+    width:50%;
+  }
+
+  .kartu-patner img{
+    width: 80%;
+  }
+}
