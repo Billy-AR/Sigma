@@ -219,16 +219,19 @@ h3{
    .logo a{
     width:100%;
     text-align:center;
+    font-size: 40px;
+    line-height: 60px;
    }
 
    nav .menu ul{  
     text-align: center;
-    line-height: 60px;
+    line-height:50px;
 }
 
 nav .menu ul li{
     display:inline-block;
     float:none;
+    line-height: 20px;
  }
 
   #Home{
